@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="formulario">
+        <label for="">Nome</label>
+        <input type="text" id="nome">
+        <br>
+        <label for="">Sobrenome</label>
+        <input type="text" id="sobrenome">
+        <br>
+        <label for="">Idade</label>
+        <input type="text" id="idade">
+        <br>
+        <label for="">Qual o seu gênero?</label>
+        <input type="text" id="genero">
+        <br>
+        <label for="">Qual sua comida favorita?</label>
+        <input type="text" id="comida">
+        <br>
+        <label for="">Qual seu jogo de video game favorito?</label>
+        <input type="text" id="videogame">
+        <br>
+        <label for="">Qual sua série favorita?</label>
+        <input type="text" id="serie">
+        <br>
+        <label for="">Fortnai ou babiji?</label>
+        <input type="text" id="fortnite">
+        <br><br>
+    </div>
+
+    <div class="botao">
+        <button id="btn" onclick="guardaFormulario()">Enviar</button>
+    </div>
+    
+
+
+
+    <div id="conteudo">
+        <div class="informacoes-print">
+            <div><strong>Nome: </strong></div>
+            <div><strong>Sobrenome: </strong></div>
+            <div><strong>Idade: </strong></div>
+            <div><strong>Gênero: </strong></div>
+            <div><strong>Comida: </strong></div>
+            <div><strong>Jogo: </strong></div>
+            <div><strong>Série: </strong></div>
+            <div><strong>Fortnai ou babiji: </strong></div>
+        </div>
+
+        <div class="print">
+            <div id="nome2"></div>
+            <div id="sobrenome2"></div>
+            <div id="idade2"></div>
+            <div id="genero2"></div>
+            <div id="comida2"></div>
+            <div id="videogame2"></div>
+            <div id="serie2"></div>
+            <div id="fortnite2"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
